@@ -1,0 +1,13 @@
+- maximum path size
+- handle sharing violations with a builtin list tracking open files
+- fine-grained multithreading
+- replace alloca'ed copied strings/basename code with relative offsets/length and original string
+- open handle for directory type
+- offset types for seek
+- fix seek function to return position like posix
+- error code to message
+- FIF_FILE_OPEN_APPEND
+- save error state, don't permit mounting an error'ed archive
+- inode cache
+- largest_free_block_size to avoid iterating through freeblock list
+- freeblock cache?
