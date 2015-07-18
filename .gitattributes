@@ -9,6 +9,7 @@
 *.sln text eol=crlf
 *.vcproj text eol=crlf
 *.vcproj.filters text eol=crlf
-*.bat eol=crlf
-*.rc eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.rc text eol=crlf
 
