@@ -89,6 +89,7 @@ int fif_volume_copy_blocks(fif_mount_handle mount, fif_block_index_t src_block_i
         dst_block_index++;
     }
 
+    free(buffer);
     return FIF_ERROR_SUCCESS;
 }
 
